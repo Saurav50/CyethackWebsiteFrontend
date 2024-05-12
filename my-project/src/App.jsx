@@ -8,9 +8,10 @@ function App() {
 
   return (
     <>
-     <div className="bg-[url('./assets/react.svg')] w-[500px] h-[500px]"></div>
-     <p className='bg-[red]'>Hello</p>
-     <img src={reactLogo}></img>
+     <div className="mx-auto my-auto bg-[url('./assets/react.svg')] w-[500px] h-[500px]">
+      <p className='pt-[50%] text-3xl'>Welcome to Cyethack !!</p>
+     </div>
+  
 
     </>
   )
