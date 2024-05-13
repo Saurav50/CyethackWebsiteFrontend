@@ -135,7 +135,7 @@ let tick={
 }
 
   return (
-    <div className='bg-no-repeat bg-[url(./assets/BackgroundFrame.svg)] w-[80%] mx-auto'>
+    <div className=' bg-no-repeat bg-[url(./assets/BackgroundFrame.svg)] w-[80%] mx-auto'>
      <div className="bg-gradient-radial from-[#47dc83] w-[100%] ">
      <img className='pt-[3%] mx-auto' src={cyethack}></img>
 
@@ -156,11 +156,16 @@ let tick={
      
      
      </div>
-   <div className='mt-[30%] flex flex-col justify-center'>
+
+
+
+   <div className='bg-gradient-to-l from-[#47dc83] to-[#374F8E] w-[100%] mt-[30%] flex flex-col justify-center'>
+    
+
+    <div></div>
    <img className='mx-auto w-[60%] ' src={TenYears}></img>
    <p className='mt-[5%] w-[30%] mx-auto text-center text-[#C7C7C7] text-4xl'>Businesses all over the world feel 
  secured with Cyethack.</p>
-   </div>
    <div className='mt-[5%] flex justify-around w-[60%] mx-auto'>
         {/* Iterate over the object and print the name and description */}
         {Object.entries(obj).map(([key, value]) => (
@@ -176,13 +181,11 @@ let tick={
     <div className='flex justify-center mt-[1%]'>
     <button className='mx-auto bg-[black] rounded-full p-5 text-[#FFFFFF]'>Select a Plan</button>
     </div>
-
-    
     <NavBar></NavBar>
+    </div>
 
     
-    
-    <div>
+    <div className='bg-gradient-to-br from-[#538E37]  to-[#47CADC]'>
       <p className='text-center mt-[5%] text-[#C7C7C7] text-3xl'>Simple, yet Powerful Features</p>
       <div className='mt-[5%] flex justify-around w-[60%] mx-auto'>
         {/* Iterate over the object and print the name and description */}
