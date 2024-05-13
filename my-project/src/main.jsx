@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
- <div className='bg-[black]'>
+ <div className='bg-gradient-to-br from-lime-600 to-lime-900'>
    <App />
  </div>
   

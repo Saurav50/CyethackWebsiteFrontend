@@ -13,6 +13,12 @@ import GroupPeople from "./assets/GroupPeople.svg"
 import HowWeWork from "./assets/How_We_Work.svg"
 import Tick from "./assets/Tick.svg"
 import Client from "./assets/Client_Logo.svg"
+import SocialMedia from "./assets/SocialMedia.svg"
+import NewDevice from "./assets/NewDevice.svg"
+import BuisnessStrategy from "./assets/BuisnessStrategy.svg"
+import FreeTrial from "./assets/FreeTrial.svg"
+import Demo from "./assets/Demo.svg"
+import Frame from "./assets/BackgroundFrame.svg"
 import './App.css'
 
 function App() {
@@ -101,6 +107,27 @@ let obj2={
   },
 }
 
+let articles={
+  first:{
+    image:SocialMedia,
+    heading:"Detailed insights for your social media",
+    description:"Lorem Ipsum is simply dummy text the printing and typesetting industry. Lorem Ipsum has been the standard dummy."
+  },
+  second:{
+    image:NewDevice,
+    heading:"Detailed insights for your social media",
+    description:"Lorem Ipsum is simply dummy text the printing and typesetting industry. Lorem Ipsum has been the standard dummy."
+  },
+  third:{
+    image:BuisnessStrategy,
+    heading:"Detailed insights for your social media",
+    description:"Lorem Ipsum is simply dummy text the printing and typesetting industry. Lorem Ipsum has been the standard dummy."
+  }
+}
+
+let result=Object.entries(articles);
+console.log(result);
+
 let tick={
   first:"Scheduling the  scans with ease.",
   second:"Working with cross functional teams with ease.",
@@ -108,7 +135,7 @@ let tick={
 }
 
   return (
-    <div className=' w-[80%] mx-auto'>
+    <div className='bg-no-repeat bg-[url(./assets/BackgroundFrame.svg)] w-[90%] mx-auto'>
      <div className="  w-[100%] ">
      <img className='pt-[3%] mx-auto' src={cyethack}></img>
 
@@ -253,11 +280,62 @@ Yourself is Difficult</p>
 </div>
 </div>
 <NavBar></NavBar>
+<div className=' mt-[20%]'>
+    <div className='flex justify-between '>
+    <div className='w-[60%]'>
+    <p className='mt-[5%] w-[100%] font-bold text-5xl  text-[#FFFFFF]'>Latest News and Articles</p>
+    <p className='text-md mt-[1%] text-[#FFFFFF]' >We currently support Facebook, Instagram, LinkedIn and Twitter. More to come. Felix is purpose built for ease of use and complete flexability.</p>
+    </div>
 
-
+    <div className='my-auto'>
+    <button className='bg-[black] text-[white] p-5 rounded-full'>See More News</button>
+    </div>
+</div>
+    <div className='flex gap-10 mt-[10%]'>
+    {Object.entries(articles).map(([key, value]) => (
+        <div key={key}>
+            {/* Render the image for each article */}
+            <img className='w-[100%]' src={value.image} alt={key} />
+            <hr className='mt-[10%] w-[99%] mx-auto'></hr>
+            <p className='text-[#C7C7C7] text-2xl'>{value.heading}</p>
+            <p className='text-[#C7C7C7] mt-[10%]'>{value.description}</p>
+            {/* Display the key (e.g., 'first', 'second', 'third') */}
+  
+        </div>
+    ))}
+    </div>
+    <NavBar></NavBar>
     </div>
 
 
+
+    <div>
+      <img src={FreeTrial} className='mx-auto mt-[20%]'></img>
+      <NavBar></NavBar>
+    </div>
+
+
+
+
+    <div>
+      <img src={Demo} className='mx-auto mt-[30%]'></img>
+      <div className='bg-[#3E3E3E]'>
+      <div>
+        <div className='grid grid-cols-2 grid-rows-2'>
+         
+        </div>
+        <div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+       <NavBar></NavBar>
+      </div>
+    </div>
+    </div>
+
+    
     
   )  
 }
