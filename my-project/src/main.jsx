@@ -4,7 +4,11 @@ import App from './App.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+ <div className='bg-[#000000]'>
+   <App />
+ </div>
+  
 )
+
+
+// bg-gradient-to-br from-lime-600 to-lime-900
