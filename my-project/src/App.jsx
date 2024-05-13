@@ -135,8 +135,8 @@ let tick={
 }
 
   return (
-    <div className='bg-no-repeat bg-[url(./assets/BackgroundFrame.svg)] w-[90%] mx-auto'>
-     <div className="  w-[100%] ">
+    <div className='bg-no-repeat bg-[url(./assets/BackgroundFrame.svg)] w-[80%] mx-auto'>
+     <div className="bg-gradient-radial from-[#47dc83] w-[100%] ">
      <img className='pt-[3%] mx-auto' src={cyethack}></img>
 
      <div>
@@ -156,7 +156,6 @@ let tick={
      
      
      </div>
-  
    <div className='mt-[30%] flex flex-col justify-center'>
    <img className='mx-auto w-[60%] ' src={TenYears}></img>
    <p className='mt-[5%] w-[30%] mx-auto text-center text-[#C7C7C7] text-4xl'>Businesses all over the world feel 
@@ -305,12 +304,12 @@ Yourself is Difficult</p>
     ))}
     </div>
     <NavBar></NavBar>
-    </div>
+    </div> 
 
 
 
     <div>
-      <img src={FreeTrial} className='mx-auto mt-[20%]'></img>
+      <img src={FreeTrial} className='mx-auto w-[100%] mt-[20%]'></img>
       <NavBar></NavBar>
     </div>
 
