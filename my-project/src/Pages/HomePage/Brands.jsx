@@ -4,9 +4,9 @@ import Client from "../../assets/Client_Logo.svg"
 import Tick from "../../assets/Tick.svg"
 function Brands() {
   return (
-    <div>
+    <div className='py-20 bg-cover bg-center  bg-no-repeat bg-[url("../src/assets/BackgroundFeatures.svg")]'>
       <div className='w-[80%] mx-auto'>
-<img className='mt-[20%] mx-auto' src={Client}></img>
+<img className=' mx-auto' src={Client}></img>
 <div className='text-[#DBDBDB] flex  mt-[10%]'>
   <div className='w-[50%]'>
     <p className='font-bold text-3xl'>The Tool That Feels Like your Personal Security..</p>

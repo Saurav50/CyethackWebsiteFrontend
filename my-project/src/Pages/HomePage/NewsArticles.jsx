@@ -21,8 +21,9 @@ let articles={
   }
 function NewsArticles() {
   return (
-    <div className='w-[80%] mx-auto'>
-      <div className=' mt-[20%]'>
+    <div className='py-20 bg-cover bg-center  bg-no-repeat bg-[url("../src/assets/BackgroundFeatures.svg")]'>
+    <div className=' w-[80%] mx-auto'>
+      <div className=''>
     <div className='flex justify-between '>
     <div className='w-[60%]'>
     <p className='mt-[5%] w-[100%] font-bold text-5xl  text-[#FFFFFF]'>Latest News and Articles</p>
@@ -45,6 +46,7 @@ function NewsArticles() {
   
         </div>
     ))}
+    </div>
     </div>
     </div>
     </div>

@@ -47,16 +47,16 @@ function Tools() {
         
       }
   return (
-    <div>
-      <div className=' grid grid-cols-3 grid-rows-2  gap-x-3 gap-y-3'>
+    <div className='py-20 bg-cover bg-center bg-no-repeat bg-[url("../src/assets/ToolsBackground.svg")]'>
+      <div className='w-[80%] mx-auto py-20 grid grid-cols-3 grid-rows-2  gap-x-3 gap-y-3'>
           {/* Iterate over the obj1 and display header, paragraph, logo, and details */}
           {Object.values(obj1).map((item, index) => (
-            <div key={index} className="bg-gradient-to-br from-[#DCDCDC] to-[#767676] flex flex-col border-[1px] p-5 rounded-md mt-5">
+            <div key={index} className="flex justify-around flex-col border-[1px] p-5 rounded-md mt-5">
             <button className='w-[30%] rounded-full p-3 bg-[#FFFFFF]'>{item.name}</button>
               <p className="text-left text-[#C7C7C7] text-2xl">{item.heading}</p>
               <p className="text-left text-[#C7C7C7]">{item.details}</p>
               <hr className='text-[white] w-[100%] '></hr>
-              <div className='flex  justify-between'>
+              <div className='mt-[5%] flex  justify-between'>
               <img className="" src={item.logo} alt={item.name} />
               <button className='rounded-full p-3 bg-[#FFFFFF]'>Get Started</button>
               </div>

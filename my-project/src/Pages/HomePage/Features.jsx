@@ -23,8 +23,8 @@ function Features() {
       }
 
   return (
-    <div>
-        <div className='bg-gradient-to-l from-[#47dc83] to-[#374F8E] w-[100%]  flex flex-col justify-center'>
+    <div className='py-20 bg-cover bg-center  bg-no-repeat bg-[url("../src/assets/BackgroundFeatures.svg")] '>
+        <div className='w-[100%]  flex flex-col justify-center'>
    <img className='mx-auto w-[60%] ' src={TenYears}></img>
    <p className='mt-[5%] w-[30%] mx-auto text-center text-[#C7C7C7] text-4xl'>Businesses all over the world feel 
  secured with Cyethack.</p>

@@ -3,8 +3,8 @@ import SevenDayTrialTop from "../../assets/SevenDayTop.svg"
 
 function Trial() {
   return (
-    <div>
-       <div className='rounded-md w-[80%] mt-[20%] mx-auto '>
+    <div className='py-20 bg-cover bg-center bg-no-repeat bg-[url("../src/assets/BackgroundFeatures.svg")]'>
+       <div className='rounded-md w-[80%]  mx-auto '>
       <div className='p-10 flex relative rounded-lg h-[400px]  bg-cover bg-center  bg-no-repeat bg-[url("../src/assets/SevenDayTrial.svg")]'> 
       <div className='p-5 w-[70%] flex flex-col justify-around'>
       <div className='flex flex-col gap-2'>
