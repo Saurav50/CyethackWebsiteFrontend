@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
- <div className='bg-[#000000]'>
+ <div className=' bg-[#000000]'>
    <App />
  </div>
   
