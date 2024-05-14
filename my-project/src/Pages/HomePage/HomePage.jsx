@@ -11,7 +11,7 @@ import Footer from './Footer'
 
 function HomePage() {
   return (
-    <div>
+    <div className=''>
    <HeroSection></HeroSection>
    <Features></Features>
    <Tools></Tools>

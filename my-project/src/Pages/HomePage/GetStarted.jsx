@@ -27,7 +27,7 @@ function GetStarted() {
 
   return (
     <div>
-      <div className='py-10 bg-gradient-to-t from-[#84fab0] to-[#8fd3f4]'>
+      <div className='py-20 bg-cover bg-center  bg-no-repeat bg-[url("../src/assets/BackgroundFeatures.svg")]'>
 <div className='w-[80%] mx-auto'>
 <div className=''>
   <img className='w-[100%]' src={HowWeWork}/>
