@@ -19,7 +19,7 @@ function HeroSection() {
                         </div>
                     </div>
                 </div>
-                <div className='mt-[7%]'>
+                <div className='mt-[15%]'>
                     <NavBar></NavBar>
                 </div>
             </div>
