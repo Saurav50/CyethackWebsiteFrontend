@@ -11,7 +11,7 @@ import Footer from './Footer'
 
 function HomePage() {
   return (
-    <div className=''>
+    <div className='bg-[#1A1A1A]'>
    <HeroSection></HeroSection>
    <Features></Features>
    <Tools></Tools>
